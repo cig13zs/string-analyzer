@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "String-analyzer \u2014 Analyze byte length, word count, charact",
-  "version": "1.0.0",
-  "description": "Analyze byte length, word count, character frequencies, and UTF-8 encoding sizes offline.",
+  "name": "String analyzer",
+  "version": "1.1.0",
+  "description": "Count words, characters, bytes, sentences, and paragraphs in a string.",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -11,6 +11,6 @@
   "permissions": [],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "String-analyzer"
+    "default_title": "String analyzer"
   }
 }

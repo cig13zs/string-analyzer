@@ -1,22 +1,30 @@
-# String-analyzer
+# String analyzer
 
-Analyze byte length, word count, character frequencies, and UTF-8 encoding sizes offline.
+<!-- maintenance-moved -->
+> **Maintenance moved:** [`word-counter`](https://github.com/cig13zs/word-counter) contains the maintained implementation.
+> This repository is kept as a read-only historical release.
 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-buy_me_a_coffee-FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/jju1s)
-[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+Count words, characters, bytes, sentences, and paragraphs in a string.
 
-Web app: **[cig13zs.github.io/string-analyzer](https://cig13zs.github.io/string-analyzer/)**
+[Open the web app](https://cig13zs.github.io/string-analyzer/)
 
-## What it does
+The tool runs in the browser without analytics or uploads. It also includes a Manifest V3 extension with no requested permissions.
 
-Runs 100% offline in your browser. Zero tracking, zero network requests.
+## Use it
 
-## Install
+Paste or enter a value, run the tool, then copy the result. The sample button provides a valid starting input.
 
-1. Download latest zip from [Releases](https://github.com/cig13zs/string-analyzer/releases).
-2. Open chrome://extensions and turn on **Developer mode**.
-3. Click **Load unpacked** and select extension.
+## Local checks
+
+```sh
+node core.test.js
+node site.test.js
+```
+
+## Extension
+
+Open `chrome://extensions`, enable Developer mode, choose **Load unpacked**, and select the `extension` folder. A ready-to-load zip is included in the repository.
 
 ## License
 
-MIT licensed. Tip jar: [ko-fi.com/jju1s](https://ko-fi.com/jju1s).
+[MIT](LICENSE). Support the project at [ko-fi.com/jju1s](https://ko-fi.com/jju1s).
